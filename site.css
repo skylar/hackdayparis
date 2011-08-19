@@ -1,0 +1,27 @@
+body {
+	font-family: Georgia, serif;
+	font-size: 11pt;
+}
+pre {
+	font-family: monospace;
+	font-size: 12pt;
+}
+p {
+	margin: 20px 0px 5px 0px;
+}
+
+#hd { margin: 30px 0 30px 0;}
+.title, .details {display:block;}
+
+.ascii-title { font-family: monospace; white-space: pre; display:inline-block; margin:0 15px 0 0;}
+.ascii-title.pink { color:fuchsia;}
+
+
+.details { margin-top:10px;}
+.detail-item { font-family: Helvetica, sans-serif; font-size:12pt; display:inline-block;}
+.detail-item.event-location { float:right; }
+
+.dictionary { margin: 20px 10px; font-size:14pt; }
+.dictionary .word { font-weight:bold; }
+.dictionary .phonetique, .dictionary .structure { color:#888; }
+.dictionary .partofspeech { font-style:italic; }
