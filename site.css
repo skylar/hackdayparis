@@ -25,3 +25,5 @@ height: 227px;}
 .dictionary .word { font-weight:bold; }
 .dictionary .phonetique, .dictionary .structure { color:#888; }
 .dictionary .partofspeech { font-style:italic; }
+
+.authors li{ float: left; margin-right: 10px;}
