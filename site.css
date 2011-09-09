@@ -11,11 +11,11 @@ p {
 }
 
 #hd { margin: 30px 0 30px 0;}
-.title, .details {display:block;}
 
-.ascii-title { font-family: monospace; white-space: pre; display:inline-block; margin:0 15px 0 0;}
-.ascii-title.pink { color:fuchsia;}
+.logo { background-image: url("images/logo.png"); text-indent: -9999px; width: 299px;
+height: 227px;}
 
+.logo, .title, .details {display:block;}
 
 .details { margin-top:10px;}
 .detail-item { font-family: Helvetica, sans-serif; font-size:12pt; display:inline-block;}
