@@ -1,29 +1,12 @@
-body {
-	font-family: Georgia, serif;
-	font-size: 11pt;
-}
-pre {
-	font-family: monospace;
-	font-size: 12pt;
-}
-p {
-	margin: 20px 0px 5px 0px;
-}
-
-#hd { margin: 30px 0 30px 0;}
+.header {margin-top: 40px;}
 
 .logo { background-image: url("images/logo.png"); text-indent: -9999px; width: 299px;
 height: 227px;}
 
 .logo, .title, .details {display:block;}
 
-.details { margin-top:10px;}
-.detail-item { font-family: Helvetica, sans-serif; font-size:12pt; display:inline-block;}
-.detail-item.event-location { float:right; }
-
-.dictionary { margin: 20px 10px; font-size:14pt; }
-.dictionary .word { font-weight:bold; }
-.dictionary .phonetique, .dictionary .structure { color:#888; }
-.dictionary .partofspeech { font-style:italic; }
+.details { margin-top:50px;}
 
 .authors li{ float: left; margin-right: 10px;}
+
+.call-to-action { margin-top:20px;}
