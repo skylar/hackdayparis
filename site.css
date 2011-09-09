@@ -10,3 +10,8 @@ height: 227px;}
 .authors li{ float: left; margin-right: 10px;}
 
 .call-to-action { margin-top:20px;}
+
+.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
