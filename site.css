@@ -7,11 +7,17 @@ height: 227px;}
 
 .details { margin-top:50px;}
 
-.authors li{ float: left; margin-right: 10px;}
+ul.authors li{display:inline; margin-right: 10px;}
 
 .call-to-action { margin-top:20px;}
 
 .portrait {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto; 
+}
+
+ul.sponsors {
+    text-align: center;
+}
+ul.sponsors li {display:inline; margin: 0 20px 0 20px;}
