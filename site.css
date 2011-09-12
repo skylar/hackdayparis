@@ -1,18 +1,25 @@
-body {padding-top: 40px;}
+body {margin-top: 40px; margin-bottom:60px;color:gray;}
+div.container { width:740px;}
 
+/* ***Header*** */
 .header {margin-top: 40px;}
-
 .logo { background-image: url("images/logo.png"); text-indent: -9999px; width: 299px;
 height: 227px;}
-
+.caption1, .caption2 { font-weight: bold; color:#404040;}
+div.caption1 {font-size:36px;line-height:40px;}
+div.caption2 {font-size:24px;line-height:36px;margin-top:20px;}
 .logo, .title, .details {display:block;}
 
-.details { margin-top:50px;}
+.details { margin-top:20px; margin-left:20px;}
 
 ul.authors li{display:inline; margin-right: 10px;}
 
-.call-to-action { margin-top:20px;}
+.call-to-action { margin-top:18px;}
 
+/* ***Body Styles*** */
+.photo-gallery {
+	padding: 10px;
+}
 .portrait {
     display: block;
     margin-left: auto;
@@ -24,7 +31,7 @@ ul.sponsors {
 }
 ul.sponsors li {display:inline; margin: 0 20px 0 20px;}
 
-.dictionary { margin: 20px 10px; }
+div.dictionary { margin: 20px 10px; font-size:18px;}
 .dictionary .word { font-weight:bold; }
 .dictionary .phonetique, .dictionary .structure { color:#aaa; }
 .dictionary .partofspeech { font-style:italic; }
