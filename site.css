@@ -26,6 +26,7 @@ h2 { margin-top: 30px; }
     margin-left: auto;
     margin-right: auto; 
 }
+.bio-byline {font-size:14px; color:#9F9F9F; margin-bottom:10px;}
 
 ul.sponsors {
     text-align: center;
