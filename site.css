@@ -17,6 +17,7 @@ ul.authors li{display:inline; margin-right: 10px;}
 .call-to-action { margin-top:18px;}
 
 /* ***Body Styles*** */
+h2 { margin-top: 30px; }
 .photo-gallery {
 	padding: 10px;
 }
