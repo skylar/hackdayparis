@@ -1,3 +1,5 @@
+body {padding-top: 40px;}
+
 .header {margin-top: 40px;}
 
 .logo { background-image: url("images/logo.png"); text-indent: -9999px; width: 299px;
