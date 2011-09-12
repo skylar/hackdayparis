@@ -23,3 +23,8 @@ ul.sponsors {
     text-align: center;
 }
 ul.sponsors li {display:inline; margin: 0 20px 0 20px;}
+
+.dictionary { margin: 20px 10px; }
+.dictionary .word { font-weight:bold; }
+.dictionary .phonetique, .dictionary .structure { color:#aaa; }
+.dictionary .partofspeech { font-style:italic; }
