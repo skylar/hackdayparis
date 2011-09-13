@@ -3,8 +3,9 @@ div.container { width:740px;}
 
 /* ***Header*** */
 .header {margin-top: 40px;}
-.logo { background-image: url("images/logo.png"); text-indent: -9999px; width: 299px;
-height: 227px;}
+.logo {margin-bottom: 18px;}
+
+
 .caption1, .caption2 { font-weight: bold; color:#404040;}
 div.caption1 {font-size:36px;line-height:40px;}
 div.caption2 {font-size:24px;line-height:36px;margin-top:20px;}
