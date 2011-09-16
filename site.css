@@ -10,8 +10,6 @@ div.caption1 {font-size:36px;line-height:40px;}
 div.caption2 {font-size:24px;line-height:36px;margin-top:20px;}
 .logo, .title, .details {display:block;}
 
-.tagline {font-weight: bold;color: #404040;text-align: center;}
-
 .details { margin-top:20px; margin-left:20px;}
 
 ul.authors li{display:inline; margin-right: 10px;}
@@ -20,9 +18,12 @@ ul.authors li{display:inline; margin-right: 10px;}
 
 /* ***Body Styles*** */
 h2 { margin-top: 30px; }
-.photo-gallery {
-	padding: 10px;
-}
+
+.share-item { display: inline-block;}
+.tagline {font-weight: bold;color: #404040;text-align: center; font-size:14px;}
+.mutetext, .mutetext a { color: #9F9F9F;}
+span.mutetext { margin-left:5px;}
+.photo-gallery { padding: 10px; }
 .portrait {
     display: block;
     margin-left: auto;
