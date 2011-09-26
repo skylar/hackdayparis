@@ -18,10 +18,12 @@ ul.authors li{display:inline; margin-right: 10px;}
 
 /* ***Body Styles*** */
 h2 { margin-top: 30px; }
+h4.striped { font-weight:normal; font-style:italic; color:gray; }
 
 .share-item { display: inline-block;}
 .tagline {font-weight: bold;color: #404040;text-align: center; font-size:14px;}
-.mutetext, .mutetext a { color: #9F9F9F;}
+.mutetext { color: #9F9F9F;}
+.mutetext a { color: #5599EE;}
 span.mutetext { margin-left:5px;}
 .photo-gallery { padding: 10px; }
 .portrait {
