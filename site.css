@@ -7,10 +7,11 @@ div.container { width:740px;}
 
 .caption1, .caption2 { font-weight: bold; color:#404040;}
 div.caption1 {font-size:36px;line-height:40px;}
-div.caption2 {font-size:24px;line-height:36px;margin-top:20px;}
+div.caption2 {font-size:24px;line-height:36px;margin-top:10px;}
 .logo, .title, .details {display:block;}
 
-.details { margin-top:20px; margin-left:20px;}
+.details { margin-top:10px; margin-left:10px;}
+#intro {margin-top:20px;}
 
 ul.authors li{display:inline; margin-right: 10px;}
 
