@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Event">
+<head>
+<title>Hack Day Paris 2011 | Event Details</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="site.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+<link rel="shortcut icon" href="http://faviconist.com/icons/f28ed3424ee5a31921c254937356ddfb/favicon.ico" />
+
+<!-- Facebook meta -->
+<meta property="og:title" content="Hack Day Paris" />
+<meta property="og:image" content="http://hackdayparis.org/images/logo.png" />
+<meta property="og:url" content="http://hackdayparis.org/"/>
+<meta property="og:description"
+          content="a 40-hour R&amp;D marathon
+                  November 4-6, 2011"/>
+
+<!-- Google+ meta -->
+<meta itemprop="name" content="Hack Day Paris">
+<meta itemprop="description" content="a 40-hour R&amp;D marathon
+November 4-6, 2011">
+<meta itemprop="image" content="http://hackdayparis.org/images/logo.png">
+
+</head>
+
+<body>
+
+<div class="topbar" data-dropdown="dropdown">
+  <div class="topbar-inner">
+    <div class="container">
+      <h3><a href="index.html">Hack Day Paris 2012: Connected TV</a></h3>
+      <ul class="nav">
+		<li class="dropdown">
+			<a href="2012.html" class="dropdown-toggle">Introduction</a>
+			<ul class="dropdown-menu">
+		        <li><a href="2012.html#theevent">The Event</a></li>
+		        <li><a href="2012.html#judges">Judges</a></li>
+		        <li><a href="2012..html#sponsors">Sponsors</a></li>
+			</ul>
+		</li>
+
+		<li class="dropdown">
+			<a href="2012-event.html" class="dropdown-toggle">Event Details</a>
+			<ul class="dropdown-menu">
+				<li><a href="2012-event.html#enterthehack">Enter the Hack</a></li>
+				<li><a href="2012-event.html#location">Location</a></li>
+		        <li><a href="2012-event.html#schedule">Schedule</a></li>
+		        <li><a href="2012-event.html#logistics">Logistics</a></li>
+		        <li><a href="2012-event.html#contact">Contact</a></li>
+			</ul>
+		</li>
+		<li><a href="2012-hacks.html">The Hacks</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+<!--
+<div class="photo-gallery">
+<div class="row">
+	<div class="column span6">
+		<img src="images/photos/hackdayparis-noisebox.jpg" height="232" width="350">
+		<div>The NoiseBox: the device built by the winning team.</div>
+	</div>
+	<div class="column span6">
+		<img src="images/photos/hackdayparis-winners.jpg" height="232" width="350">
+		<div>The grand prize team winners.</div>
+	</div>
+</div>
+<div class="row">
+	<div class="column span6">
+		<img src="images/photos/hackdayparis-working1.jpg" height="232" width="350">
+		<div>Hackers working inside La Ruche.</div>
+	</div>
+	<div class="column span6">
+		<iframe width="350" height="232" src="http://www.youtube.com/embed/oA6tH3psBRw" frameborder="0" allowfullscreen></iframe>
+		<div>Jean Michel Jarduino.</div>
+	</div>
+</div>
+</div>
+-->
+
+<h2>Latest pictures and videos of the event</h2>
+<h3>Pictures</h3>
+<ul>
+	<li><a href="http://www.flickr.com/photos/mikiane/sets/72157631814479623/">Kickoff pictures by Mikiane</a></li>
+	<li><a href="https://www.facebook.com/media/set/?set=a.270585476377629.43732.120951188007726&type=1">Kickoff pictures by Juan</a></li>
+</ul>
+
+<h3>Sounds</h3>
+<ul>
+	<li><a href="https://soundcloud.com/hackdayparis/sets/team-projects-from-hack-day">Team Projects interviews</a></li>
+	<li><a href="https://soundcloud.com/hackdayparis/sets/api-providers-at-hack-day">API providers</a></li>
+</ul>
+
+<h3>Videos</h3>
+<ul>
+	<li><a href="http://www.youtube.com/watch?v=NdVHaPSzsKg">Final presentations streaming</a></li>
+</ul>
+
+<h2>List of hacks</h2>
+
+<table style="table-layout:fixed;">
+
+	<tr ><th width="20%"  >Name<th width="40%"  >Description<th width="40%"  >Technologies, tools, APIs used.</tr>
+
+	<tr ><td   ><a href="http://menews.herokuapp.com/">MeNews</a><td   >Be able to personalize your TV news. Select some subjects you like and we will build a video containing news for you.<td   >Javascript (jQuery &amp; Node.js)<br/>RSS feeds<br/>Stupeflix<br/>Heroku</tr>
+
+	<tr ><td   ><a href="http://explee.com/explee-at-home/">Explee @Home</a><td   >Explee @Home allows you to create awesome animated videos right from your couch.<td   >It&#39;s a double native android app.<br/>The first one is for tablets and phones that allows you to draw, take picture, organize your ideas.<br/>The second one is for Google Tv, to display a big whiteboard.<br/><br/>For the back-end, we&#39;ve got a nodejs server + a video rendering engine.<br/>The API used is the Explee&#39;s private one.</tr>
+
+	<tr ><td   >PingZa<td   >The idea is to create a zapping of live videos (from France&#39;s videos channels like France 2) that made people react on Twitter, using Mesagraph and Pluzz APIs. Many parameters might be added by the user to choose exactly what kind of buzz he wants in his zapping.<td   >A bit of both, we want to have apps on smartphones and tablets that build html pages and send them to the connected TV.<br/>Since none of use is a web developper, we built it in c# for the moment, and will translate it into java for android if we have the time.</tr>
+
+	<tr ><td   >QRPub<td   >L&#39;idée est de mettre en place des QRCode dans les publicités : celui qui scan le plus un QRCode avec son mobile pour un spot donné remporte un lot ! Ce QRCode peut très bien être utilisé sur d&#39;autres média (presse, affiches publicitaires...).<td   >Il s&#39;agit d&#39;une application Web développé avec node.js (Express.js et Socket.io en particulier) et MongoDB. Il y a également du jQuery pour certaines animations.</tr>
+
+	<tr ><td   ><a href="http://desolate-ocean-6284.herokuapp.com">Next, Please.</a><td   >Our hack is based on creating an interaction between TV Channel and user. The idea is to allow the user to decide, to give his opinion about what he would like to see in the future on the TV.<br/>By introducing a vote system, the user is allowed to watch the different teaser given by the TV Channel and vote for the one he is interested in.<br/>This kind of plateform is a good opportunity for the TV Group to have more feedbacks before making choices and spend a lot of money.<td   >Web, PHP, MongoDB, Google APIs</tr>
+
+	<tr ><td   ><a href="http://tip-off-tv.appspot.com/">Tip-off.tv</a><td   >Finally a tv program that tells you what you should watch (based on what you have seen in the past) !<td   >Technology: Google app engine &amp; Ajax<br/>API used: FTV<td   ></tr>
+
+	<tr ><td   ><a href="http://TVodeo.us">TVodeo.us</a><td   >There are lots of great shows on TV and viewers enjoy commenting them in real-time with friends or complete stranagers. But what about shows already aired? With TVodeo.us users can comment in realtime with friends or fan any show,  movie, game... that is available on a VOD or catchup service, just like when it was first broadcasted. <br/>To start just select a show on the France TV Pluzz service and start playing it: others can join you at any time and watch simultaneously, wherever they are. All viewers can pause, add their comments directly on the screen along with their photo. <br/>With TVodeo.us social TV can now come to any show ever recorded on TV.<td   >The service is fully web / javascript based:<br/>- node.js server<br/>- webRTC (get user media)<br/>- websocket<br/>- html5 / JS / CSS3<br/>- Google TV (through Chrome)<br/>- Chrome web app on PC<br/>- France Television Pluzz API and player<br/><br/>Implemented but not working (issue with video playback): Samsung smart TV SDK</tr>
+
+	<tr ><td   >e2tv<td   >The goal of our hack is to put back the TV in the center of our video experience. It offers a unique place to search, watch and discover movies, TV shows ans series. <br/>It fetches content from multiple  sources, such as channel replay service (PLUZZ), Netflix, Youtube, movies.io and dailytvtorrents.<br/>If you decide to use a VOD service you will be automatically redirected to the service and you will be able to buy or rent the movie.<br/>If you use a torrent service (such as movies.io or dailytvtorrent), the video will be downloaded to our server, and you will be able to track downloading progress and stream it directly on your TV.<td   >Our hack is a web app built in ruby on rails.<br/><br/>We wrote a C++ library to connect to google open database, netflix, movies.io, dailyttvtorrents and youtube API. and also a python library to use PGEP API for TV programs and pluzz replay.<br/><br/>We use transmission-daemon (torrent server) to download content., and a ruby library was patched and used to communicate with transmission-daemon.<br/><br/>We need a google tv connected to WIFI and a tv for our demonstration.</tr>
+
+	<tr ><td   >LinkedTV<td   >The TV of tomorrow will be a TV delinearised where everyone will follow only the content they want to see. This will only be possible with the RDF technologies where each TV content providers will host their data in a endpoint SPARQL.<br/>The hack is to push the data of France Television (and tomorrow, LCP, BBC etc.) in one endpoint SPARQL and create a friendly user interface with Android to select, share contents with my friends and me notify when my content is going to be broadcast. (only the notification and the selecting is working)<br/>Ofcourse, the personal data and calculations are invisible from the outside.<td   >RDF, SPARQL, Android Mobile, BorderCloud</tr>
+
+	<tr ><td   >Hyper-titles<td   >What if your mobile phone could provide real-time access to interactive content while you are watching TV ? Broadcaster could provide non-intrusive additional multimedia data to the public: songs of a new album, book covers, slow-motion re-diffusion for sport, tour dates, customized multi-lingual audio support, propose interactive surveys. Also, imagine a second the brand new movie experience it offers: your TV could take pictures of you via your phone at critical moments of horror movies, simulate calls, flash&#39;s, vibration and play sounds to enhance your immersion in the movies ! Well, this is what we propose, as well as a bunch of other cool applications we did not had the time to think of !<td   >Server/Client application under Android.</tr>
+
+	<tr ><td   >Furr<td   >Scan movie posters and return to the movie soundtrack.<td   >Moodstocks</tr>
+
+	<tr ><td   >Zapoleon<td   >Zapoleon provides the viewer with 5 quality film recommendations for what is currently playing in the myriad TV channels at her disposal (4 organic and one partner recommendation), in an easy and intuitive interface. No more zapping through a hundred channels or having to look for something on VOD if you just want to be a bit lazy and be entertained with great content, on right now, and without effort.<td   >Web (js, html5, css)<br/>APIs (PGEP, IMDB) - functional integration but no demo implementation</tr>
+
+	<tr ><td   ><a href='tvpictionary.appspot.com'>TV Pictionary</a><td   >It&#39;s a multi-team game where each team draws something on the TV from any devices in turn. <br/>We provide the keyword to draw and the opposite teams can validate if the keyword was correctly guessed<td   >HTML5 (HTML, CSS? Javascript)<br/>Back end in python over Appengine using channel (HTTP Comete long pulling queries)</tr>
+</table>
+
+</div>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25250658-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>
